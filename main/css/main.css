@@ -20,6 +20,7 @@ header {
 header p {
     margin: 0;
     margin-top: 21px;
+    margin-left: 26px;
 }
 
 header a {
@@ -86,13 +87,17 @@ li svg {
 
 
 footer {
+    position: fixed;
     height: 560px;
-    width: auto;
+    width: 100%;
     background-color: #FFF462;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 300px;
+    bottom: 0;
+    padding: 40px 0 40px 0;
+    box-sizing: content-box;
 }
 
  footer h2 {
@@ -118,14 +123,18 @@ footer {
       margin-top: 17px;
       font-size: 26px;
   }
-
   footer h4 {
+      font-size: 15px;
+      margin-top: 80px;
+  }
+  footer h5 {
     position: relative;
     display: inline-block;
     margin-bottom: 13px;
-    font-size: 15px;
+    font-size: 17px;
+    margin-top: 80px;
   }
-  footer h4:before {
+  footer h5:before {
     content: '';
     position: absolute;
     bottom: -5px;
@@ -138,6 +147,19 @@ footer {
     background-color: #333;
   }
 
+  .footerleft a {
+        font-size: 51px;
+        text-decoration: none;
+        color: #333;
+        border-bottom: 1px solid #333;
+        font-weight: bold;
+  }
+
+  #time p{
+    margin: 0;
+    font-size: 15px;
+    font-weight: bold;
+  }
   .footerright img {
       width: 642px;
       box-shadow: 15px 15px 0 #fff;
