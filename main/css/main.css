@@ -1,0 +1,144 @@
+@charset "utf-8";
+
+body {
+    font-family: 'メイリオ', 'Meiryo', sans-serif;
+    color: #333;
+}
+
+header {
+    height: 70px;
+    width: auto;
+    background-color: #FFF462;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    font-size: 23px;
+    font-weight: bold;
+    letter-spacing: 0.601em;
+}
+
+header p {
+    margin: 0;
+    margin-top: 21px;
+}
+
+header a {
+    text-decoration: none;
+    color: #333;
+    position: relative;
+}
+
+header a::after {
+    position: absolute;
+    left: 22%;
+    content: '';
+    width: 50%;
+    height: 3px;
+    background: #333;
+    bottom: -0.5px;
+    transform: scale(0, 1);
+    transform-origin: left top;
+    transition: transform 0.4s;
+}
+
+header a:hover::after {
+    transform: scale(1, 1);
+}
+header a:hover {
+    color: rgba(51, 51, 51, 0.829);
+}
+
+
+header ul {
+    list-style-type: none;
+    display: flex;
+    font-size: 18px;
+}
+
+ul li {
+    margin-right: 48.5px;
+}
+
+ul li:last-child {
+    margin-right: 27px;
+}
+
+li svg {
+    margin-right: 7px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    height: 560px;
+    width: auto;
+    background-color: #FFF462;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+}
+
+ footer h2 {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 13px;
+    font-size: 51px;
+  }
+  footer h2:before {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    display: inline-block;
+    width: 60px;
+    height: 4px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background-color: #333;
+  }
+
+  footer h3 {
+      margin-top: 17px;
+      font-size: 26px;
+  }
+
+  footer h4 {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 13px;
+    font-size: 15px;
+  }
+  footer h4:before {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    display: inline-block;
+    width: 30px;
+    height: 2px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background-color: #333;
+  }
+
+  .footerright img {
+      width: 642px;
+      box-shadow: 15px 15px 0 #fff;
+  }
