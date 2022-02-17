@@ -3,6 +3,7 @@
 body {
     font-family: 'メイリオ', 'Meiryo', sans-serif;
     color: #333;
+    box-sizing: content-box;
 }
 
 header {
@@ -68,10 +69,49 @@ li svg {
     margin-right: 7px;
 }
 
+.fastbg {
+    background-color: #FFF462;
+    position: relative;
+    height: 1020px;
+    margin-bottom: 50px;
+    overflow: hidden;
+}
 
+#titlebg {
+    display: block;
+    width: 1220px;
+    height: 841px;
+    position: absolute;
+    top: 0;
+    background: #ffffff;
+    border-radius: 0 130px 130px 0;
+}
 
+#titlebg img {
+    width: 100%;
+}
 
+#titleimg {
+    margin:  41px 315px 415px 252px;
+    position: absolute;
+    z-index: 100;
+}
 
+#topimg {
+    padding-right: 72px;
+}
+#topimg img {
+    background-color: #fff;
+    padding: 22px 24.5px;
+    position: absolute;
+    right: -638px;
+    top: 25vh;
+    width: 100%;
+    z-index: 50;
+    max-width: 943px;
+    margin-right: 74px;
+    box-sizing: border-box;
+}
 
 
 
@@ -87,7 +127,6 @@ li svg {
 
 
 footer {
-    position: fixed;
     height: 560px;
     width: 100%;
     background-color: #FFF462;
