@@ -69,7 +69,7 @@ header li svg {
     margin-right: 7px;
 }
 
-.fastbg {
+.fast-bg {
     background-color: #FFF462;
     position: relative;
     height: 1020px;
@@ -95,7 +95,7 @@ header li svg {
        white-space: nowrap
    }
 
-#titlebg {
+#titleBg {
     display: block;
     width: 1220px;
     height: 841px;
@@ -105,21 +105,41 @@ header li svg {
     border-radius: 0 130px 130px 0;
 }
 
-#titlebg img {
+#titleBg img {
     width: 100%;
 }
 
-#titleimg {
+#titleImg {
     margin:  41px 315px 415px 252px;
     position: absolute;
     z-index: 100;
 }
 
+#memoBg {
+    position: absolute;
+    width: 538px;
+    height: 313px;
+    top: 469px;
+    left: 264.5px;
 
-#topimg {
+}
+
+#memoBg img {
+    box-shadow: 22px 22px #333;
+}
+
+#memoInner {
+    position: absolute;
+    top: 0;
+}
+
+#memoInner p {
+    margin: 0;
+}
+#topImg {
     padding-right: 72px;
 }
-#topimg img {
+#topImg img {
     background-color: #fff;
     padding: 22px 24.5px;
     position: absolute;
@@ -149,13 +169,16 @@ footer {
     height: 560px;
     width: 100%;
     background-color: #FFF462;
+    padding: 40px;
+    box-sizing: content-box;
+}
+
+#footerInner {
+    height: 560px;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 300px;
-    bottom: 0;
-    padding: 40px 0 40px 0;
-    box-sizing: content-box;
+    gap: 15vw;
 }
 
  footer h2 {
@@ -205,7 +228,7 @@ footer {
     background-color: #333;
   }
 
-  .footerleft a {
+  .footer-left a {
         font-size: 51px;
         text-decoration: none;
         color: #333;
@@ -218,7 +241,9 @@ footer {
     font-size: 15px;
     font-weight: bold;
   }
-  .footerright img {
-      width: 642px;
-      box-shadow: 15px 15px 0 #fff;
+  .footer-right img {
+    width: 100%;
+    max-width: 642px;
+    min-width: 300px;
+    box-shadow: 15px 15px 0 #fff;
   }
