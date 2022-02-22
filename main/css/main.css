@@ -57,15 +57,15 @@ header ul {
     font-size: 18px;
 }
 
-ul li {
+header ul li {
     margin-right: 48.5px;
 }
 
-ul li:last-child {
+header ul li:last-child {
     margin-right: 27px;
 }
 
-li svg {
+header li svg {
     margin-right: 7px;
 }
 
@@ -76,6 +76,24 @@ li svg {
     margin-bottom: 50px;
     overflow: hidden;
 }
+
+#tag {
+    position: absolute;
+    left: 1205px;
+    top: 210px;
+    font-size: 0.7vw;
+    font-weight: bold;
+   }
+   
+   #tag ul {
+       display: flex;
+       list-style-type: none;
+   }
+
+   #tag ul li {
+       margin-right: 22px;
+       white-space: nowrap
+   }
 
 #titlebg {
     display: block;
@@ -97,6 +115,7 @@ li svg {
     z-index: 100;
 }
 
+
 #topimg {
     padding-right: 72px;
 }
@@ -105,7 +124,7 @@ li svg {
     padding: 22px 24.5px;
     position: absolute;
     right: -638px;
-    top: 25vh;
+    top: 245px;
     width: 100%;
     z-index: 50;
     max-width: 943px;
